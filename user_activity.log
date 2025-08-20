@@ -1,0 +1,432 @@
+2025-08-18 01:07:30,712 - ACTION: Application Started
+2025-08-18 01:11:21,345 - ACTION: Application Closed
+2025-08-18 01:12:09,341 - ACTION: Application Started
+2025-08-18 01:13:52,268 - ACTION: Application Closed
+2025-08-18 01:16:14,203 - ACTION: Application Started
+2025-08-18 01:17:51,282 - ACTION: Application Closed
+2025-08-18 01:18:24,925 - ACTION: Application Started
+2025-08-18 01:21:41,162 - ACTION: Application Closed
+2025-08-18 01:26:31,705 - ACTION: Application Started
+2025-08-18 01:27:50,773 - ACTION: Application Closed
+2025-08-18 01:32:39,343 - ACTION: Application Started
+2025-08-18 01:32:39,939 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:32:43,247 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:33:30,668 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:33:33,395 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:33:33,860 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-18 01:33:34,612 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 01:33:35,238 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:33:35,678 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:33:46,978 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:34:22,369 - ACTION: Application Closed
+2025-08-18 01:34:47,765 - ACTION: Application Started
+2025-08-18 01:34:48,367 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:34:53,697 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:35:05,828 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 01:35:07,133 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-18 01:35:07,861 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 01:35:13,082 - ACTION: Subdomain Scan Started | DETAILS: Target: google.com
+2025-08-18 01:35:35,851 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:35:48,577 - ACTION: Application Closed
+2025-08-18 01:48:07,574 - ACTION: Application Started
+2025-08-18 01:48:08,221 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:48:40,835 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:48:48,448 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-18 01:48:49,894 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 01:48:55,062 - ACTION: Subdomain Scan Started | DETAILS: Target: google.com
+2025-08-18 01:49:05,470 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:49:06,089 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:50:43,371 - ACTION: Application Closed
+2025-08-18 01:51:37,146 - ACTION: Application Started
+2025-08-18 01:51:37,670 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:51:41,060 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:53:52,596 - ACTION: Application Closed
+2025-08-18 01:55:10,239 - ACTION: Application Started
+2025-08-18 01:55:10,737 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:55:14,142 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:57:28,496 - ACTION: Application Closed
+2025-08-18 01:57:43,701 - ACTION: Application Started
+2025-08-18 01:57:44,220 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 01:57:47,062 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 01:58:00,921 - ACTION: Application Closed
+2025-08-18 01:59:56,448 - ACTION: Application Started
+2025-08-18 01:59:56,955 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 02:00:15,159 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 02:00:19,650 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 02:00:21,359 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 02:00:22,404 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 02:00:23,175 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 02:00:23,688 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 02:00:25,147 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 02:00:25,820 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-18 02:00:26,284 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 02:00:27,376 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 02:04:33,168 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-18 02:04:37,683 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 02:04:41,767 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 02:05:27,880 - ACTION: Application Closed
+2025-08-18 07:13:40,078 - ACTION: Application Started
+2025-08-18 07:13:40,593 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 07:13:55,453 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 07:13:59,271 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 07:14:00,473 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-18 07:14:01,632 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 11:46:23,760 - ACTION: Application Started
+2025-08-18 11:46:25,064 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 11:46:45,760 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 11:47:59,292 - ACTION: Application Closed
+2025-08-18 11:53:57,484 - ACTION: Application Started
+2025-08-18 11:53:58,285 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 11:54:01,372 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 11:54:03,825 - ACTION: Application Started
+2025-08-18 11:54:04,366 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 11:54:12,737 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 11:54:13,232 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-18 11:54:13,912 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 11:54:17,017 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 11:54:20,245 - ACTION: Application Closed
+2025-08-18 11:54:36,164 - ACTION: Application Closed
+2025-08-18 11:59:28,133 - ACTION: Application Started
+2025-08-18 11:59:28,836 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 11:59:32,310 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 12:04:02,875 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 12:10:26,694 - ACTION: Application Closed
+2025-08-18 12:11:01,819 - ACTION: Application Started
+2025-08-18 12:11:02,320 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 12:13:22,864 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-18 12:13:24,996 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 12:13:25,401 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 12:15:35,115 - ACTION: Application Started
+2025-08-18 12:15:35,672 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 12:15:38,645 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 12:16:02,484 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 12:24:54,136 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 12:29:30,547 - ACTION: Application Closed
+2025-08-18 12:29:41,512 - ACTION: Application Started
+2025-08-18 12:29:42,061 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 12:29:46,906 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 12:30:54,457 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 12:31:46,643 - ACTION: Application Closed
+2025-08-18 12:32:24,129 - ACTION: Application Started
+2025-08-18 12:32:24,570 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 12:32:33,857 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 12:35:07,747 - ACTION: Application Closed
+2025-08-18 12:36:28,071 - ACTION: Application Started
+2025-08-18 12:36:28,582 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 12:36:30,772 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 12:43:55,928 - ACTION: Application Closed
+2025-08-18 12:44:09,821 - ACTION: Application Started
+2025-08-18 12:44:10,272 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 12:44:12,143 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 12:45:36,851 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 12:48:38,801 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:48:39,430 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 12:54:51,166 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:57:48,883 - ACTION: Application Closed
+2025-08-18 12:59:24,834 - ACTION: Application Started
+2025-08-18 12:59:25,530 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 12:59:29,745 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 12:59:32,802 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:59:33,433 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 12:59:33,991 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:59:34,650 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 12:59:37,821 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:59:38,600 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 12:59:39,151 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:59:39,771 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 12:59:40,414 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:59:41,101 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 12:59:41,913 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:59:42,431 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 12:59:43,140 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:59:43,727 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 12:59:55,586 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 12:59:56,183 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:04:42,451 - ACTION: Application Closed
+2025-08-18 13:06:24,490 - ACTION: Application Started
+2025-08-18 13:06:25,108 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 13:19:23,145 - ACTION: Application Closed
+2025-08-18 13:19:34,232 - ACTION: Application Started
+2025-08-18 13:19:34,738 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 13:19:44,827 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:19:45,668 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:19:46,179 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:19:46,716 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:19:47,199 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:19:47,862 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:19:48,522 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:19:49,198 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:19:57,904 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-18 13:19:59,764 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-18 13:20:01,051 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-18 13:20:01,596 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 13:20:03,736 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 13:20:44,649 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:24:37,308 - ACTION: Application Closed
+2025-08-18 13:24:46,667 - ACTION: Application Started
+2025-08-18 13:24:47,062 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 13:24:51,047 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:24:52,013 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:24:52,622 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:24:53,231 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:24:53,803 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:24:54,473 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:24:55,221 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:24:56,372 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:25:37,838 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-18 13:26:26,598 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-18 13:26:45,257 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:26:46,464 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:26:47,320 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:26:48,111 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-18 13:26:50,399 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-18 13:26:51,294 - ACTION: Application Closed
+2025-08-19 22:42:01,544 - ACTION: Application Started
+2025-08-19 22:42:02,181 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 22:42:05,866 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-19 22:42:07,131 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-19 22:43:24,408 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-19 22:43:24,893 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-19 22:43:25,907 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-19 22:43:27,107 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-19 22:48:41,051 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 22:49:30,854 - ACTION: Application Closed
+2025-08-19 22:49:39,951 - ACTION: Application Started
+2025-08-19 22:49:40,522 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 22:49:49,709 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-19 22:52:20,117 - ACTION: Application Closed
+2025-08-19 22:52:30,601 - ACTION: Application Started
+2025-08-19 22:52:31,183 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 22:52:35,579 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-19 22:52:38,571 - ACTION: NAC Scan Started | DETAILS: Target: 192.168.100.0/24
+2025-08-19 22:54:04,487 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 22:54:19,794 - ACTION: Application Closed
+2025-08-19 23:41:36,192 - ACTION: Application Started
+2025-08-19 23:41:37,010 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 23:46:10,451 - ACTION: Application Closed
+2025-08-19 23:47:20,533 - ACTION: Application Started
+2025-08-19 23:47:21,068 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 23:49:41,125 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-19 23:52:57,492 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-19 23:52:58,112 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-19 23:52:59,363 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-19 23:53:00,052 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-19 23:53:28,439 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 23:53:31,581 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-19 23:53:36,340 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 23:57:08,627 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-19 23:57:28,017 - ACTION: Application Closed
+2025-08-19 23:57:57,367 - ACTION: Application Started
+2025-08-19 23:57:57,958 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-19 23:58:00,743 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-19 23:59:55,164 - ACTION: Application Closed
+2025-08-20 00:00:05,371 - ACTION: Application Started
+2025-08-20 00:00:06,217 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:00:11,260 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 00:00:47,777 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:07:33,299 - ACTION: Application Closed
+2025-08-20 00:07:51,539 - ACTION: Application Started
+2025-08-20 00:07:52,209 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:08:39,171 - ACTION: Application Closed
+2025-08-20 00:09:49,879 - ACTION: Application Started
+2025-08-20 00:09:50,450 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:11:23,706 - ACTION: Application Closed
+2025-08-20 00:14:15,502 - ACTION: Application Started
+2025-08-20 00:14:15,846 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:14:30,913 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 00:14:36,363 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:16:06,203 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 00:16:07,107 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 00:16:07,910 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:16:41,588 - ACTION: Application Closed
+2025-08-20 00:24:55,387 - ACTION: Application Started
+2025-08-20 00:24:55,959 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:25:00,566 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 00:25:33,505 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 00:25:34,427 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 00:25:36,090 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-20 00:25:38,135 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 00:25:45,468 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:26:26,696 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:27:35,610 - ACTION: Application Closed
+2025-08-20 00:27:53,371 - ACTION: Application Started
+2025-08-20 00:27:53,924 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:29:22,741 - ACTION: Application Closed
+2025-08-20 00:29:31,800 - ACTION: Application Started
+2025-08-20 00:29:32,349 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:30:52,547 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:33:30,948 - ACTION: Application Closed
+2025-08-20 00:36:47,719 - ACTION: Application Started
+2025-08-20 00:38:32,133 - ACTION: Application Started
+2025-08-20 00:39:38,003 - ACTION: Application Started
+2025-08-20 00:39:38,504 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:39:59,903 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:40:11,412 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:41:30,263 - ACTION: Application Closed
+2025-08-20 00:42:34,418 - ACTION: Application Started
+2025-08-20 00:42:34,963 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:42:53,229 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:44:39,326 - ACTION: Application Closed
+2025-08-20 00:45:34,289 - ACTION: Application Started
+2025-08-20 00:45:34,843 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:46:00,525 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:47:11,474 - ACTION: Application Closed
+2025-08-20 00:48:11,087 - ACTION: Application Started
+2025-08-20 00:48:11,620 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:48:29,665 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:51:30,356 - ACTION: Application Closed
+2025-08-20 00:51:39,518 - ACTION: Application Started
+2025-08-20 00:51:40,058 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:52:02,898 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:53:14,466 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:53:16,602 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:53:25,910 - ACTION: Application Closed
+2025-08-20 00:54:09,942 - ACTION: Application Started
+2025-08-20 00:54:10,468 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:54:29,981 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:55:41,950 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 00:56:51,625 - ACTION: Application Closed
+2025-08-20 00:57:34,160 - ACTION: Application Started
+2025-08-20 00:57:34,717 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 00:57:51,830 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 01:00:06,139 - ACTION: Application Closed
+2025-08-20 01:00:40,838 - ACTION: Application Started
+2025-08-20 01:00:41,390 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 01:01:01,001 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 01:02:23,561 - ACTION: Application Closed
+2025-08-20 01:03:39,993 - ACTION: Application Started
+2025-08-20 01:03:40,547 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 01:03:58,623 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 01:04:54,906 - ACTION: Application Closed
+2025-08-20 01:07:15,762 - ACTION: Application Started
+2025-08-20 01:07:16,310 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 01:07:33,564 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.1001.181, User: kali
+2025-08-20 01:08:22,087 - ACTION: Application Closed
+2025-08-20 01:11:06,018 - ACTION: Application Started
+2025-08-20 01:11:06,567 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 01:11:23,607 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 01:13:26,289 - ACTION: Application Closed
+2025-08-20 01:14:56,933 - ACTION: Application Started
+2025-08-20 01:14:57,605 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 01:15:13,377 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 01:15:37,503 - ACTION: Application Closed
+2025-08-20 01:16:33,220 - ACTION: Application Started
+2025-08-20 01:16:33,823 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 01:16:52,927 - ACTION: SSH Connection Attempt | DETAILS: Host: 192.168.100.181, User: kali
+2025-08-20 01:26:39,454 - ACTION: Application Started
+2025-08-20 01:26:39,929 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 01:30:07,073 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 01:30:21,896 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-20 01:30:22,725 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 01:30:24,256 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 01:30:25,022 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 01:31:41,820 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 01:31:46,979 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 01:31:47,637 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 01:31:48,123 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-20 01:31:48,596 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 01:31:49,587 - ACTION: Application Closed
+2025-08-20 10:29:02,561 - ACTION: Application Started
+2025-08-20 10:29:04,685 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 10:29:12,132 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 10:29:13,265 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 10:29:14,054 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 10:31:06,542 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 10:35:04,637 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-20 10:35:05,276 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 10:35:05,908 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 10:35:06,932 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 10:44:23,233 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 10:44:27,292 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 10:44:29,723 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-20 10:44:31,276 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 10:46:37,828 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 10:46:38,949 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 10:46:39,316 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-20 10:46:40,380 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 10:47:11,527 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 10:51:55,318 - ACTION: Application Closed
+2025-08-20 10:52:44,595 - ACTION: Application Started
+2025-08-20 10:52:45,242 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 10:56:38,442 - ACTION: Application Started
+2025-08-20 10:56:39,051 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 10:57:15,621 - ACTION: Application Closed
+2025-08-20 10:57:21,918 - ACTION: Application Closed
+2025-08-20 10:58:53,502 - ACTION: Application Started
+2025-08-20 10:58:54,080 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 11:01:12,693 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 11:01:17,124 - ACTION: Application Closed
+2025-08-20 11:02:37,312 - ACTION: Application Started
+2025-08-20 11:02:37,854 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 11:03:54,997 - ACTION: Application Closed
+2025-08-20 11:04:05,555 - ACTION: Application Started
+2025-08-20 11:04:06,152 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 11:09:20,191 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 11:09:20,844 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 11:09:22,573 - ACTION: Application Closed
+2025-08-20 11:09:44,859 - ACTION: Application Started
+2025-08-20 11:09:45,414 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 11:16:17,979 - ACTION: Application Closed
+2025-08-20 11:17:08,345 - ACTION: Application Started
+2025-08-20 11:17:08,871 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 11:21:50,453 - ACTION: Application Closed
+2025-08-20 11:28:59,536 - ACTION: Application Started
+2025-08-20 11:28:59,941 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 11:31:35,300 - ACTION: Application Closed
+2025-08-20 11:31:58,121 - ACTION: Application Started
+2025-08-20 11:31:58,624 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 11:32:43,588 - ACTION: Application Closed
+2025-08-20 11:46:55,549 - ACTION: Application Started
+2025-08-20 11:51:33,454 - ACTION: Application Started
+2025-08-20 12:04:12,196 - ACTION: Application Started
+2025-08-20 12:04:12,892 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 12:04:25,336 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 12:04:26,038 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-20 12:04:26,800 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 12:04:27,269 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 12:04:28,581 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 12:04:32,094 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 12:04:38,071 - ACTION: Application Closed
+2025-08-20 12:05:16,097 - ACTION: Application Started
+2025-08-20 12:05:16,812 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 12:05:57,431 - ACTION: Application Closed
+2025-08-20 12:13:38,060 - ACTION: Application Started
+2025-08-20 12:13:38,758 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 12:13:57,538 - ACTION: Application Closed
+2025-08-20 12:14:35,901 - ACTION: Application Started
+2025-08-20 12:14:36,512 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 12:14:42,096 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 12:14:43,157 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 12:14:57,904 - ACTION: Application Closed
+2025-08-20 12:20:01,114 - ACTION: Application Started
+2025-08-20 12:20:01,652 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 12:21:47,019 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:21:48,087 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:21:48,687 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:21:49,446 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:22:35,521 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:22:39,555 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:26:51,903 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:26:52,759 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:27:15,930 - ACTION: Domain Viewed | DETAILS: Switched to 'Cybersecurity' domain.
+2025-08-20 12:27:16,842 - ACTION: Domain Viewed | DETAILS: Switched to 'DevOps & Cloud' domain.
+2025-08-20 12:27:18,646 - ACTION: Domain Viewed | DETAILS: Switched to 'Red Team Operations' domain.
+2025-08-20 12:27:19,415 - ACTION: Domain Viewed | DETAILS: Switched to 'Superpowers' domain.
+2025-08-20 12:27:21,759 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:27:23,027 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:27:24,688 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:27:25,363 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:27:26,036 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:27:26,548 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:27:27,231 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:27:27,730 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:27:28,309 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:27:29,251 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:27:29,932 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:27:31,004 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:27:31,534 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:27:32,284 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:27:33,077 - ACTION: Theme Changed | DETAILS: Switched to Light Theme
+2025-08-20 12:27:33,787 - ACTION: Theme Changed | DETAILS: Switched to Dark Theme
+2025-08-20 12:28:43,811 - ACTION: Domain Viewed | DETAILS: Switched to 'Network Operations' domain.
+2025-08-20 12:32:40,705 - ACTION: Application Closed
