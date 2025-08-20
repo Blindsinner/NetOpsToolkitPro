@@ -1,0 +1,10 @@
+[
+    {
+        "host": "192.168.100.181",
+        "username": "kali",
+        "password": "gAAAAABopO_UMhS20_VXSFvnryvjdHUSB9N4l6qzPO3uyIfSpLlkMqJZhLczKyApR8szKaZxIi051uNgDjpGFYP6JfPUo9088w==",
+        "port": 22,
+        "friendly_name": "Linux (SSH)",
+        "device_type": "linux"
+    }
+]
