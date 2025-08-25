@@ -1,0 +1,258 @@
+<!-- Full HTML Guide for Red Team Email Tool -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Red Team Email Toolkit Guide</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; }
+    h1, h2, h3 { color: #2e3b4e; }
+    code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    pre { background: #f4f4f4; padding: 10px; border-radius: 4px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    table, th, td { border: 1px solid #ccc; }
+    th, td { padding: 10px; text-align: left; }
+    .note { background: #fff3cd; padding: 10px; border-left: 4px solid #ffeeba; }
+    .danger { background: #f8d7da; padding: 10px; border-left: 4px solid #f5c6cb; }
+    .success { background: #d4edda; padding: 10px; border-left: 4px solid #c3e6cb; }
+  </style>
+</head>
+<body>
+  <h1>📧 Red Team Email Toolkit – Complete User & SMTP Setup Guide</h1>
+
+  <p>This guide explains how to use your Red Team Email Tool to send standard or spoofed emails, generate phishing templates, preview HTML, export EML/HTML, and configure SMTP servers that allow spoofing. For authorized use only.</p>
+
+  <h2>🔍 Feature Overview</h2>
+  <ul>
+    <li>Manual or CSV-based recipient loading</li>
+    <li>HTML-based phishing template generation</li>
+    <li>Live preview and HTML editing</li>
+    <li>Attachment support</li>
+    <li>SMTP authentication and spoofing capabilities</li>
+    <li>Tracking pixel inclusion</li>
+    <li>Export to .eml and .html formats</li>
+  </ul>
+
+  <h2>✉️ Sending Emails: Step-by-Step</h2>
+  <h3>1. Compose Email</h3>
+  <ul>
+    <li>Set <strong>From (Name)</strong> and <strong>From (Email)</strong> (spoof here if needed)</li>
+    <li>Select template <strong>brand</strong> and provide <strong>subject</strong></li>
+    <li>Choose recipient mode: CSV or manual input</li>
+    <li>Optionally set CC, BCC, tracker pixel, extra headers</li>
+  </ul>
+
+  <h3>2. Generate or Write HTML Body</h3>
+  <ul>
+    <li>Use "Generate Template" for auto HTML</li>
+    <li>Edit in HTML mode or use "Preview Mode" to view rendered version</li>
+  </ul>
+
+  <h3>3. Configure SMTP</h3>
+  <ul>
+    <li>Input <strong>SMTP host, port, username, and password</strong></li>
+    <li>Enable STARTTLS if required</li>
+    <li>Click "Send" after confirming the safety checkbox</li>
+  </ul>
+
+  <h2>🛑 Why Spoofing Often Fails</h2>
+  <p>Most modern email servers validate:</p>
+  <ul>
+    <li><strong>SPF</strong>: Ensures the sending IP is authorized for the domain</li>
+    <li><strong>DKIM</strong>: Verifies message was not tampered with</li>
+    <li><strong>DMARC</strong>: Dictates what to do when SPF/DKIM fails (reject/spam)</li>
+  </ul>
+
+  <div class="note">
+    Spoofed emails using third-party SMTPs (like Hostinger, Gmail, Outlook) will often be rejected or land in spam due to failed SPF/DKIM.
+  </div>
+
+  <h2>✅ How to Increase Deliverability of Spoofed Emails</h2>
+  <ul>
+    <li><strong>Use your own SMTP server (Postfix/Exim) on a VPS</strong></li>
+    <li>Control DNS to configure SPF/DKIM/DMARC</li>
+    <li><strong>Send as your domain</strong> (or lookalike domains) to bypass SPF/DKIM blocks</li>
+    <li>Use <strong>internal test servers</strong> (MailSlurp, Mailhog) for simulations</li>
+    <li><strong>Consider phishing platforms</strong> (GoPhish, King Phisher) for robust spoofing support</li>
+  </ul>
+
+  <h2>🔧 Setup: Spoof-Ready SMTP Server on VPS</h2>
+  <h3>Requirements</h3>
+  <ul>
+    <li>Ubuntu VPS (DigitalOcean, Hetzner, Linode, etc.)</li>
+    <li>Domain registered (e.g., <code>my-redteam-tools.com</code>)</li>
+    <li>Root access to install mail tools</li>
+  </ul>
+
+  <h3>1. Install Postfix</h3>
+  <pre><code>sudo apt update && sudo apt install postfix mailutils</code></pre>
+  Choose "Internet Site" when prompted.
+
+  <h3>2. Configure Postfix to Allow Spoofing</h3>
+  Edit <code>/etc/postfix/main.cf</code>:
+  <pre><code>myhostname = mail.my-redteam-tools.com
+myorigin = /etc/mailname
+inet_interfaces = all
+inet_protocols = all
+mydestination = $myhostname, localhost.$mydomain, localhost
+smtpd_banner = $myhostname ESMTP
+smtpd_recipient_restrictions = permit_mynetworks, permit_sasl_authenticated, reject_unauth_destination
+</code></pre>
+
+  <h3>3. Add Domain to DNS</h3>
+  Create DNS records:
+  <ul>
+    <li><strong>SPF:</strong> <code>v=spf1 mx ~all</code></li>
+    <li><strong>DKIM:</strong> Optional (use <code>opendkim</code> if needed)</li>
+    <li><strong>DMARC:</strong> <code>v=DMARC1; p=none</code> (allows spoofing)</li>
+    <li><strong>Reverse DNS:</strong> Point your VPS IP to <code>mail.my-redteam-tools.com</code></li>
+  </ul>
+
+  <h3>4. Restart Postfix</h3>
+  <pre><code>sudo systemctl restart postfix</code></pre>
+
+  <h3>5. Test with Your Tool</h3>
+  Use SMTP config:
+  <ul>
+    <li>SMTP Server: <code>mail.my-redteam-tools.com</code></li>
+    <li>Port: 25 or 587 (with STARTTLS)</li>
+    <li>User: Any (if SMTP AUTH is enabled)</li>
+    <li>From: <code>spoofed@target.com</code> (Your tool allows this)</li>
+  </ul>
+
+  <div class="danger">
+    <strong>WARNING:</strong> Spoofing external domains without consent is illegal in most jurisdictions. Use only during authorized red team operations.
+  </div>
+
+  <h2>📘 Questions?</h2>
+  <p>Use the tool inside virtual labs or penetration testing environments. For questions about deliverability or SMTP tuning, contact your red team infrastructure lead or email specialist.</p>
+</body>
+</html>
+<!-- Full HTML Guide for Red Team Email Tool -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Red Team Email Toolkit Guide</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; }
+    h1, h2, h3 { color: #2e3b4e; }
+    code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    pre { background: #f4f4f4; padding: 10px; border-radius: 4px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    table, th, td { border: 1px solid #ccc; }
+    th, td { padding: 10px; text-align: left; }
+    .note { background: #fff3cd; padding: 10px; border-left: 4px solid #ffeeba; }
+    .danger { background: #f8d7da; padding: 10px; border-left: 4px solid #f5c6cb; }
+    .success { background: #d4edda; padding: 10px; border-left: 4px solid #c3e6cb; }
+  </style>
+</head>
+<body>
+  <h1>📧 Red Team Email Toolkit – Complete User & SMTP Setup Guide</h1>
+
+  <p>This guide explains how to use your Red Team Email Tool to send standard or spoofed emails, generate phishing templates, preview HTML, export EML/HTML, and configure SMTP servers that allow spoofing. For authorized use only.</p>
+
+  <h2>🔍 Feature Overview</h2>
+  <ul>
+    <li>Manual or CSV-based recipient loading</li>
+    <li>HTML-based phishing template generation</li>
+    <li>Live preview and HTML editing</li>
+    <li>Attachment support</li>
+    <li>SMTP authentication and spoofing capabilities</li>
+    <li>Tracking pixel inclusion</li>
+    <li>Export to .eml and .html formats</li>
+  </ul>
+
+  <h2>✉️ Sending Emails: Step-by-Step</h2>
+  <h3>1. Compose Email</h3>
+  <ul>
+    <li>Set <strong>From (Name)</strong> and <strong>From (Email)</strong> (spoof here if needed)</li>
+    <li>Select template <strong>brand</strong> and provide <strong>subject</strong></li>
+    <li>Choose recipient mode: CSV or manual input</li>
+    <li>Optionally set CC, BCC, tracker pixel, extra headers</li>
+  </ul>
+
+  <h3>2. Generate or Write HTML Body</h3>
+  <ul>
+    <li>Use "Generate Template" for auto HTML</li>
+    <li>Edit in HTML mode or use "Preview Mode" to view rendered version</li>
+  </ul>
+
+  <h3>3. Configure SMTP</h3>
+  <ul>
+    <li>Input <strong>SMTP host, port, username, and password</strong></li>
+    <li>Enable STARTTLS if required</li>
+    <li>Click "Send" after confirming the safety checkbox</li>
+  </ul>
+
+  <h2>🛑 Why Spoofing Often Fails</h2>
+  <p>Most modern email servers validate:</p>
+  <ul>
+    <li><strong>SPF</strong>: Ensures the sending IP is authorized for the domain</li>
+    <li><strong>DKIM</strong>: Verifies message was not tampered with</li>
+    <li><strong>DMARC</strong>: Dictates what to do when SPF/DKIM fails (reject/spam)</li>
+  </ul>
+
+  <div class="note">
+    Spoofed emails using third-party SMTPs (like Hostinger, Gmail, Outlook) will often be rejected or land in spam due to failed SPF/DKIM.
+  </div>
+
+  <h2>✅ How to Increase Deliverability of Spoofed Emails</h2>
+  <ul>
+    <li><strong>Use your own SMTP server (Postfix/Exim) on a VPS</strong></li>
+    <li>Control DNS to configure SPF/DKIM/DMARC</li>
+    <li><strong>Send as your domain</strong> (or lookalike domains) to bypass SPF/DKIM blocks</li>
+    <li>Use <strong>internal test servers</strong> (MailSlurp, Mailhog) for simulations</li>
+    <li><strong>Consider phishing platforms</strong> (GoPhish, King Phisher) for robust spoofing support</li>
+  </ul>
+
+  <h2>🔧 Setup: Spoof-Ready SMTP Server on VPS</h2>
+  <h3>Requirements</h3>
+  <ul>
+    <li>Ubuntu VPS (DigitalOcean, Hetzner, Linode, etc.)</li>
+    <li>Domain registered (e.g., <code>my-redteam-tools.com</code>)</li>
+    <li>Root access to install mail tools</li>
+  </ul>
+
+  <h3>1. Install Postfix</h3>
+  <pre><code>sudo apt update && sudo apt install postfix mailutils</code></pre>
+  Choose "Internet Site" when prompted.
+
+  <h3>2. Configure Postfix to Allow Spoofing</h3>
+  Edit <code>/etc/postfix/main.cf</code>:
+  <pre><code>myhostname = mail.my-redteam-tools.com
+myorigin = /etc/mailname
+inet_interfaces = all
+inet_protocols = all
+mydestination = $myhostname, localhost.$mydomain, localhost
+smtpd_banner = $myhostname ESMTP
+smtpd_recipient_restrictions = permit_mynetworks, permit_sasl_authenticated, reject_unauth_destination
+</code></pre>
+
+  <h3>3. Add Domain to DNS</h3>
+  Create DNS records:
+  <ul>
+    <li><strong>SPF:</strong> <code>v=spf1 mx ~all</code></li>
+    <li><strong>DKIM:</strong> Optional (use <code>opendkim</code> if needed)</li>
+    <li><strong>DMARC:</strong> <code>v=DMARC1; p=none</code> (allows spoofing)</li>
+    <li><strong>Reverse DNS:</strong> Point your VPS IP to <code>mail.my-redteam-tools.com</code></li>
+  </ul>
+
+  <h3>4. Restart Postfix</h3>
+  <pre><code>sudo systemctl restart postfix</code></pre>
+
+  <h3>5. Test with Your Tool</h3>
+  Use SMTP config:
+  <ul>
+    <li>SMTP Server: <code>mail.my-redteam-tools.com</code></li>
+    <li>Port: 25 or 587 (with STARTTLS)</li>
+    <li>User: Any (if SMTP AUTH is enabled)</li>
+    <li>From: <code>spoofed@target.com</code> (Your tool allows this)</li>
+  </ul>
+
+  <div class="danger">
+    <strong>WARNING:</strong> Spoofing external domains without consent is illegal in most jurisdictions. Use only during authorized red team operations.
+  </div>
+
+  <h2>📘 Questions?</h2>
+  <p>Use the tool inside virtual labs or penetration testing environments. For questions about deliverability or SMTP tuning, contact your red team infrastructure lead or email specialist.</p>
+</body>
+</html>
