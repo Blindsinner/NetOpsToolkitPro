@@ -224,8 +224,3 @@ This GUI contains offensive & defensive tools: scanning, brute forcing, phishing
 * Misuse can be **illegal** and is your responsibility.
 
 ---
-
-```
-
-Would you like me to also **add screenshot placeholders** (like `![screenshot](assets/screenshots/dashboard.png)`) in each section, so your README looks polished when you publish it?
-```
