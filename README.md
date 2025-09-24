@@ -99,15 +99,15 @@ Here’s the corrected file in Markdown:
 
 1. Clone the repo and open folder:
    ```
-   git clone <your-repo> netops-toolkit-pro
-   cd netops-toolkit-pro
-```
+   git clone https://github.com/Blindsinner/NetOpsToolkitPro
+   cd NetOpsToolkitPro
 
-2. Run the application:
+
+3. Run the application:
 
    ```
    python3 main.py
-```
+
 3. The GUI will launch after bootstrap.
 
 4. Use the **Settings widget** to configure:
